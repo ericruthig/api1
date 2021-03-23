@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(106, 201, 204);
+    flex-direction: column;
+}
+
+.headImg {
+    position: sticky;
+  
+
+    width: 30%; 
+    height: 30%;
+    
+}
+
+li {
+    list-style-type: none;
+}
+
+.data {
+    position: relative;
+    text-align: center;
+}
+
+#image {
+    position: relative;
+    align-items: center;
+}
+
+.next {
+    position: fixed;
+} 

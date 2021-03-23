@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href='style.css'>
+    <title>Pokemon API</title>
+</head>
+<body>
+    <div class='headImg'>
+        <img src='./assets/logoImg.png' class='headImg'>
+    </div>
+    <div class='data'><h1>Gotta Catch 'Em All!'</h1>
+        <div class='info'>
+            <div id='image'></div>
+            <ul>
+                <li class='data'><h2>Name:</h2>
+                    <div id='name'></div>
+                </li>
+                <li  class='data'><h2>Number:</h2>
+                <div id='number'></div>
+                </li>
+                <li class='data'><h2>Type:</h2>
+                <div id='type'></div>
+                </li>
+                </ul>
+            <button id='next' onclick=pressBtn()>Give Me Pokemon</button>
+        </div>
+    </div>
+    <script src='api.js'></script>
+</body>
+
+</html>
